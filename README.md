@@ -1,6 +1,9 @@
 # Kundan Kumar - Portfolio Website
 
-![Portfolio Preview](src/images/kundanPC.jpg)
+![image](https://github.com/user-attachments/assets/cea671cc-efff-4506-a54b-327603788b26)
+![image](https://github.com/user-attachments/assets/7c6c5cb7-66c8-4ea2-9724-2bcbe1e9135f)
+
+
 
 ## 🌟 Live Demo
 
