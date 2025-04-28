@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    @apply scroll-smooth;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* This accounts for the fixed header */
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-accent;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-text-secondary hover:text-accent transition-colors duration-300 cursor-pointer;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 -bottom-1 w-0 h-0.5 bg-accent transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .heading {
+    @apply flex items-center whitespace-nowrap font-semibold text-text-primary text-2xl sm:text-3xl;
+  }
+
+  .heading::after {
+    content: '';
+    @apply ml-4 h-px bg-text-secondary/20 w-full;
+    display: block;
+  }
+
+  .numbered-heading {
+    @apply heading;
+  }
+
+  .numbered-heading::before {
+    @apply text-accent font-mono text-xl mr-2;
+  }
+}
