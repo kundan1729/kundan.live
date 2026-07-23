@@ -7,7 +7,7 @@
 
 ## 🌟 Live Demo
 
-Visit my portfolio at: [https://www.itskundan.live/](https://www.itskundan.live/)
+Visit my portfolio at: [https://kundan-portfolio-6ktbpx8d3-kundan234432s-projects.vercel.app/)
 
 ## 🚀 About This Project
 
